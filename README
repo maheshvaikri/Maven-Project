@@ -12,9 +12,11 @@ docker // you can install docker with "yum install -y docker-ce docker-ce-cli co
 post installing you can fecth the code from github account by clone the repo https://github.com/techlanders/Maven-Project.git
 git clone https://github.com/techlanders/Maven-Project.git
 
+
 use maven to clean the previous builds and  package the war file 
 mvn clean
 mvn package
+
 
 check the outputs in target directory structure and war file with name devops.war
 
@@ -26,6 +28,7 @@ docker run -d -p 8080:8080 --name mycontainer image-name:version
 
 Check your system IP in browser :
 IP:8080/devops
+
 
 
 Lab completed**
